@@ -1,0 +1,13 @@
+﻿Build started 24/03/2014 18:33:34.
+     1>Project "C:\08961Attempt2\AntTweakBar_116\AntTweakBar\examples\TwCopyDLL.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if exist ..\lib\debug\AntTweakBar.dll ( xcopy /y /f ..\lib\debug\AntTweakBar.dll debug32 ) else ( xcopy /y /f ..\lib\AntTweakBar.dll debug32 )
+         
+         :VCEnd
+         C:\08961Attempt2\AntTweakBar_116\AntTweakBar\lib\debug\AntTweakBar.dll -> C:\08961Attempt2\AntTweakBar_116\AntTweakBar\examples\debug32\AntTweakBar.dll
+         1 File(s) copied
+     1>Done Building Project "C:\08961Attempt2\AntTweakBar_116\AntTweakBar\examples\TwCopyDLL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

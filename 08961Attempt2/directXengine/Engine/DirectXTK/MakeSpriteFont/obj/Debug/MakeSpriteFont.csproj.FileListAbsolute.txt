@@ -1,0 +1,5 @@
+C:\08961-RealTime\dx11tut03\Engine\DirectXTK\MakeSpriteFont\bin\Debug\MakeSpriteFont.exe
+C:\08961-RealTime\dx11tut03\Engine\DirectXTK\MakeSpriteFont\bin\Debug\MakeSpriteFont.pdb
+C:\08961-RealTime\dx11tut03\Engine\DirectXTK\MakeSpriteFont\obj\Debug\MakeSpriteFont.csprojResolveAssemblyReference.cache
+C:\08961-RealTime\dx11tut03\Engine\DirectXTK\MakeSpriteFont\obj\Debug\MakeSpriteFont.exe
+C:\08961-RealTime\dx11tut03\Engine\DirectXTK\MakeSpriteFont\obj\Debug\MakeSpriteFont.pdb

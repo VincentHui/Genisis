@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ShaderPrograms">
+      <UniqueIdentifier>{04c7a1fd-a17b-4737-887e-0eb00b4440cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphicsclass subclasses">
+      <UniqueIdentifier>{a0a12b48-0cc3-4a75-a077-7abb98ef8bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphicsclass subclasses">
+      <UniqueIdentifier>{2ddb03d1-2411-4ed0-80f1-06606710687c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Support">
+      <UniqueIdentifier>{70eb09d6-05d4-4518-812b-afc1d00e6c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelClass subclasses">
+      <UniqueIdentifier>{b0ec08fa-2461-4dfe-8ce7-5fac659143e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ModelClass subclasses">
+      <UniqueIdentifier>{c7805e3b-84c7-41bc-87d5-776441096ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLSL invokers">
+      <UniqueIdentifier>{6b80e4fe-a85c-4fdd-9072-5dc063401680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphicsclass subclasses\HLSL invokers">
+      <UniqueIdentifier>{9622518f-e593-4fb6-b9e5-c03d23c558fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\torus">
+      <UniqueIdentifier>{d1ea0207-fc23-4546-b5fc-cdc20a5a2d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\Bézier">
+      <UniqueIdentifier>{2aac6931-6b21-47a7-a028-ce226059b5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\Ellipsoid">
+      <UniqueIdentifier>{3d3b0072-a1cd-4bc5-9d63-28b5ac80ef5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{a795191e-061a-4bda-8cb3-d4deb33664e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{51ab45f0-4b0f-4dc5-8d0c-6973062f78bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneObjects">
+      <UniqueIdentifier>{0b8a988e-b5c9-4556-bb6c-aa3b8ff909e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneObjects">
+      <UniqueIdentifier>{cbf1bd02-5940-464f-97be-1b5878512cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\Alien">
+      <UniqueIdentifier>{0eb76064-a857-4117-860a-332ddf428bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\GeometrySmoke">
+      <UniqueIdentifier>{d77f21b6-28a7-4e59-b629-5f3edfc83414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\blur">
+      <UniqueIdentifier>{06647648-f3f0-4494-aa31-957ccd3a0d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\RayMarch">
+      <UniqueIdentifier>{e61858d7-1ab7-4407-a1a1-d58406982908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\postProcessing">
+      <UniqueIdentifier>{c8032514-edb6-4d71-920a-88bb08fcd4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\GeometryExplosion">
+      <UniqueIdentifier>{cccb49e0-6923-4e3b-9a23-ddd14845c564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms\GeoAlien">
+      <UniqueIdentifier>{6d166f8c-9d21-40eb-8d5e-74c2b73e65cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneObjects\Partition">
+      <UniqueIdentifier>{b01fc3ac-c182-40ba-bdd5-52be0326641d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneObjects\Partition">
+      <UniqueIdentifier>{3bfb4932-115d-449c-b9a8-03f4f2d57237}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelClass.cpp">
+      <Filter>Source Files\graphicsclass subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\graphicsclass subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>Source Files\ModelClass subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="LightInfo.cpp">
+      <Filter>Source Files\graphicsclass subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Source Files\HLSL invokers</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSL_invoker.cpp">
+      <Filter>Source Files\HLSL invokers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\HLSL invokers</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSL_invoker_tess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="positionclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierInvoker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsContext.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadInvoker.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLightingClass.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TorrusSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="timerclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RayMarchSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="orthowindowclass.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="rendertextureclass.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="debugwindowclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I_SceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipsoidSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoExplosionSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoAlienSceneObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierSceneObject.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePartition.cpp">
+      <Filter>Source Files\SceneObjects\Partition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelClass.h">
+      <Filter>Header Files\graphicsclass subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\graphicsclass subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>Header Files\ModelClass subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSL_invoker.h">
+      <Filter>Header Files\graphicsclass subclasses\HLSL invokers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Header Files\graphicsclass subclasses\HLSL invokers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\graphicsclass subclasses\HLSL invokers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightInfo.h">
+      <Filter>Header Files\graphicsclass subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSL_invokerTess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="positionclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierInvoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsContext.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadInvoker.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLightingClass.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TorrusSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="timerclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RayMarchSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="orthowindowclass.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="rendertextureclass.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="debugwindowclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_SceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectIncludes.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoExplosionSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipsoidSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoAlienSceneObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierSceneObject.h">
+      <Filter>Header Files\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePartition.h">
+      <Filter>Header Files\SceneObjects\Partition</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Light.ps">
+      <Filter>ShaderPrograms</Filter>
+    </None>
+    <None Include="Light.vs">
+      <Filter>ShaderPrograms</Filter>
+    </None>
+    <None Include="Texture.ps">
+      <Filter>ShaderPrograms\RayMarch</Filter>
+    </None>
+    <None Include="Texture.vs">
+      <Filter>ShaderPrograms\RayMarch</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="LightHS.hlsl">
+      <Filter>ShaderPrograms</Filter>
+    </FxCompile>
+    <FxCompile Include="LightDS.hlsl">
+      <Filter>ShaderPrograms</Filter>
+    </FxCompile>
+    <FxCompile Include="LightPS.hlsl">
+      <Filter>ShaderPrograms</Filter>
+    </FxCompile>
+    <FxCompile Include="LightVS.hlsl">
+      <Filter>ShaderPrograms</Filter>
+    </FxCompile>
+    <FxCompile Include="TorusVS.hlsl">
+      <Filter>ShaderPrograms\torus</Filter>
+    </FxCompile>
+    <FxCompile Include="TorusPS.hlsl">
+      <Filter>ShaderPrograms\torus</Filter>
+    </FxCompile>
+    <FxCompile Include="TorusHS.hlsl">
+      <Filter>ShaderPrograms\torus</Filter>
+    </FxCompile>
+    <FxCompile Include="TorusDS.hlsl">
+      <Filter>ShaderPrograms\torus</Filter>
+    </FxCompile>
+    <FxCompile Include="BézierDS.hlsl">
+      <Filter>ShaderPrograms\Bézier</Filter>
+    </FxCompile>
+    <FxCompile Include="BézierHS.hlsl">
+      <Filter>ShaderPrograms\Bézier</Filter>
+    </FxCompile>
+    <FxCompile Include="BézierPS.hlsl">
+      <Filter>ShaderPrograms\Bézier</Filter>
+    </FxCompile>
+    <FxCompile Include="BézierVS.hlsl">
+      <Filter>ShaderPrograms\Bézier</Filter>
+    </FxCompile>
+    <FxCompile Include="EllipsoidVS.hlsl">
+      <Filter>ShaderPrograms\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="EllipsoidHS.hlsl">
+      <Filter>ShaderPrograms\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="EllipsoidDS.hlsl">
+      <Filter>ShaderPrograms\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="EllipsoidPS.hlsl">
+      <Filter>ShaderPrograms\Ellipsoid</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoSmokeHS.hlsl">
+      <Filter>ShaderPrograms\GeometrySmoke</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoSmokeDS.hlsl">
+      <Filter>ShaderPrograms\GeometrySmoke</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoSmokeGS.hlsl">
+      <Filter>ShaderPrograms\GeometrySmoke</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoSmokePS.hlsl">
+      <Filter>ShaderPrograms\GeometrySmoke</Filter>
+    </FxCompile>
+    <FxCompile Include="verticalblurVS.hlsl">
+      <Filter>ShaderPrograms\blur</Filter>
+    </FxCompile>
+    <FxCompile Include="VerticalblurPS.hlsl">
+      <Filter>ShaderPrograms\blur</Filter>
+    </FxCompile>
+    <FxCompile Include="HorizontalblurVS.hlsl">
+      <Filter>ShaderPrograms\blur</Filter>
+    </FxCompile>
+    <FxCompile Include="HorizontalblurPS.hlsl">
+      <Filter>ShaderPrograms\blur</Filter>
+    </FxCompile>
+    <FxCompile Include="RayMarchPS.hlsl">
+      <Filter>ShaderPrograms\RayMarch</Filter>
+    </FxCompile>
+    <FxCompile Include="SimpleTextureVS.hlsl">
+      <Filter>ShaderPrograms\blur</Filter>
+    </FxCompile>
+    <FxCompile Include="SimpleTexturePS.hlsl">
+      <Filter>ShaderPrograms\blur</Filter>
+    </FxCompile>
+    <FxCompile Include="ScreenSpaceVS.hlsl">
+      <Filter>ShaderPrograms\postProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorCorrectionPS.hlsl">
+      <Filter>ShaderPrograms\postProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoVS.hlsl">
+      <Filter>ShaderPrograms\GeometrySmoke</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoExplosionGS.hlsl">
+      <Filter>ShaderPrograms\GeometryExplosion</Filter>
+    </FxCompile>
+    <FxCompile Include="AlienVS.hlsl">
+      <Filter>ShaderPrograms\Alien</Filter>
+    </FxCompile>
+    <FxCompile Include="AlienPS.hlsl">
+      <Filter>ShaderPrograms\Alien</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoAlienGS.hlsl">
+      <Filter>ShaderPrograms\GeoAlien</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoAlienVS.hlsl">
+      <Filter>ShaderPrograms\GeoAlien</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoAlienPS.hlsl">
+      <Filter>ShaderPrograms\GeoAlien</Filter>
+    </FxCompile>
+    <FxCompile Include="GeoExplosionPS.hlsl">
+      <Filter>ShaderPrograms\GeometrySmoke</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
